@@ -20,7 +20,7 @@ async function main() {
     await page.type("input#username", username)
     await sleep(100)
     await page.type("input#password", password)
-    await sleep(100)
+    await sleep(1000)
     await page.click("button#loginbtn");
 
     await sleep(100)
